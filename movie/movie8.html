@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bán Vé</title>
+    <link rel="stylesheet" href="../css/body_header_footer.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="movie.css">
+    <link rel="stylesheet" href="../css/between.css">
+    <!-- <style>
+        .between{
+            background-image: url(../Trang_chu/images/m1.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+        .between::after{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            z-index: -1;
+        }
+    </style> -->
+</head>
+<body>
+    <header> <img src="../images/logo-film.png" alt="" >Rạp Vé UTC </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Trang Chủ</a></li>
+            <li><a href="../Top_Phim.html">Top Phim</a></li>
+            <li><a href="../Khuyen_Mai.html">Khuyến Mãi</a></li>
+            <li><a href="../Gia_Ve.html">Giá Vé</a></li>
+        </ul>
+        <div class="log"><a  id="login" href="#">Đăng Nhập</a></div>
+    </nav>
+
+    <div class="between">
+        <div class="content">
+            <img src="../images/movie8.png" alt="">
+            <div class="texts">
+                <h1>QUỶ ÁM: TÍN ĐỒ</h1>
+                <p>
+                    Kinh dị Mỹ  100 phút    Đạo diễn: David Gordon Green<br>
+                    Diễn viên: Jennifer Nettles, Ellen Burstyn, Leslie Odom Jr.<br>
+                    Khởi chiếu: 31/10/2023<br><br>
+                    Phần tiếp theo của bộ phim năm 1973 kể về một cô bé 12 tuổi bị một thực thể ma quỷ bí ẩn chiếm hữu,
+                    buộc mẹ cô phải tìm đến sự giúp đỡ của hai linh mục để cứu cô.
+                    <p style="color:#AA3537;">Khuyến cáo: T18: Phim được phổ biến đến khán giả từ đủ 18 tuổi trở lên.</p>
+                </p>
+                <div class="nut">
+                    <a href="#" class="luong"><button  >Xem trailer</button></a>
+                    <button id="button_booking" type="button">Booking now</button>         
+                </div>
+            </div>
+        </div>
+
+        <div class="attention">
+            <p><strong>Lưu ý:</strong> Khán giả dưới 13 tuổi chỉ chọn suất chiếu kết thúc trước 22h và Khán giả dưới 16 tuổi chỉ chọn suất chiếu kết thúc trước 23h.
+
+            </p>
+        </div>
+
+
+        <div class="trailer">
+            <span class="close">&#10006;</span>
+            <video  controls> 
+                <source src="../video/movie8.mp4" type="video/mp4">
+              </video>
+        </div>
+
+        <div class="gach"></div>
+
+        <div class="day" >
+            <ul>
+                <li class="button_day">
+                    <button class="button_day1"> Th.9<br> <h2>13</h2> <br>Thứ hai </button>
+                </li>
+                <li class="button_day">
+                    <button class="button_day1"> Th.9 <br> <h2>14</h2> <br> Thứ ba </button>
+                </li>
+                <li class="button_day">
+                    <button class="button_day1"> Th.9 <br> <h2>15</h2> <br> Thứ tư </button>
+                </li>
+                <li class="button_day">
+                    <button class="button_day1"> Th.9 <br> <h2>16</h2> <br> Thứ năm </button>
+                </li>
+                <li class="button_day">
+                    <button class="button_day1"> Th.9 <br> <h2>17</h2> <br> Thứ sáu </button>
+                </li>
+                <li class="button_day">
+                    <button class="button_day1"> Th.9 <br> <h2>18</h2> <br> Thứ bảy </button>
+                </li>
+                <li class="button_day">
+                    <button class="button_day1"> Th.9 <br> <h2>19</h2> <br> Chủ nhật </button>
+                </li>
+            </ul>
+
+        </div>
+        <div class="gach"></div>
+        <div class="booking">
+            <h1>Phòng chiếu UTC</h1>
+            <ul class="showcase">
+                <li>
+                  <div class="seat"></div>
+                  <small>Ghế trống</small>
+                </li>
+                <li>
+                  <div class="seat selected"></div>
+                  <small>Đã chọn</small>
+                </li>
+                <li>
+                  <div class="seat sold"></div>
+                  <small>Đã bán</small>
+                </li>
+              </ul>
+              <div class="container">
+                <img src="../images/cinema.jpg" alt="">
+                <div class="row">
+                    <div class="seat sold"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="location">A</div>
+                </div>
+          
+                <div class="row">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="location">B</div>
+                </div>
+                <div class="row">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat sold"></div>
+                    <div class="location">C</div>
+                </div>
+                <div class="row">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="location">D</div>
+                </div>
+                <div class="row">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="location">E</div>
+                </div>
+                <div class="row">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="location">F</div>
+                </div>
+                <div class="row">
+                    <div class="location">1</div>
+                    <div class="location">2</div>
+                    <div class="location">3</div>
+                    <div class="location">4</div>
+                    <div class="location">5</div>
+                    <div class="location">6</div>
+                    <div class="location">7</div>
+                    <div class="location">8</div>
+                    <div class="location">9</div>
+                    <div class="location">10</div>
+                </div>
+            </div>
+            
+            <div class="price" style="display: flex; ">
+                <p class="text">
+                    Số ghế đã chọn: <span id="count">0</span> <br> Tổng số tiền: <span id="total">0</span>.000VNĐ
+                  </p>
+                  <button class="booked">Thanh toán</button>
+            </div>
+        </div>
+
+        <div class="thank_you">
+            <img src="../images/thanks1.jpg" alt="">
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    <footer>
+        <div class="member">
+            <h2>Thành viên Nhóm:</h2>
+            <ul>
+                <li>Phan Hoàng Lương</li>
+                <li>Phạm Nguyễn Hồng Phong</li>
+                <li>Nguyễn Hồng Đăng</li>
+                <li>Võ Hồng Thịnh</li>
+                <li>Hoàng Thế Vinh</li>
+            </ul>
+        </div>
+        <div class="connect">
+            <h2>Kết Nối Với Chúng Tôi:</h2>
+            <ul>
+                <li><a href=""><img src="../images/connect_1.png" alt=""></a></li>
+                <li><a href=""><img src="../images/connect_2.png" alt=""></a></li>
+                <li><a href=""><img src="../images/connect_3.png" alt=""></a></li>
+            </ul>
+        </div>        
+        <div class="contact">
+            <h2>Chăm Sóc Khách Hàng:</h2>
+            <ul>
+                <li>Hotline: 19001900</li>
+                <li>Gmail: namanhemsieunhan@gmail.com</li>
+            </ul>
+        </div>
+
+    </footer>   
+    
+</body>
+</html>

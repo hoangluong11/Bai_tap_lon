@@ -1,0 +1,82 @@
+/* menu*/
+nav {
+    background-image:url(../images/background1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    font-size: 2vw;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    /* background-color: #393E46; */
+    width: 100%;
+    z-index: 1001;
+    border-bottom: #222831 3px solid;
+    max-width: 100%;
+}
+
+nav ul {
+    width: fit-content;
+    margin: 0 0 0 -0.3vw;
+    padding: 0;
+    text-align: left;
+    text-transform: uppercase;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+    
+}
+nav ul li a:hover{
+    transform: scale(1.1);
+}
+nav ul li a {
+    transition: transform 0.3s;
+    color: #EEEEEE;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.7vw 1.4vw;
+}
+
+nav a:hover {
+    background-color: gray;
+}
+
+/* login and logout button */
+nav span{
+    display:flex;
+}
+nav span ul{
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    display: flex;
+}
+#login {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 1.6vw;
+    text-decoration: none;
+    transition: 0.5s;
+    letter-spacing: 0.1vw;
+  }
+  
+nav span ul p{
+    text-align: center;
+    color: white;
+    font-size: 0.9vw;
+}
+.connect ul li{
+    transition:transform 0.3s;
+}
+.connect ul li:hover{
+    transform: scale(1.1);
+}

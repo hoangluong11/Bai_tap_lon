@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-size:1.5vw;
+}
+/* HEAD */
+header{
+    background-image:url(../images/background1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position:sticky;
+    top:0;
+    left: 0;    
+    padding-top: 0.3vw;
+    padding-bottom: 0.4vw;
+    z-index: 100;
+    width:auto;
+    display: flex;
+    font-size: 2.4vw;
+    /* background-color:#222831; */
+    color: white;
+    border-top: #222831 3px solid;
+}
+header img{
+    width: 2.5vw;
+    margin: 0 1vw;
+}
+/* LAST */
+footer{
+    width: auto;
+    background-image:url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-color: #414141; */
+    border-top: 1px solid black;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 0.5vw;
+}   
+
+footer h2{
+    margin: 10px;
+    font-size: 2vw;
+}
+footer div{
+    flex-direction: column;
+}
+footer .member{
+    font-size: 1vw;
+
+}
+footer .connect ul{
+    display: flex;
+    margin: 10px;
+    list-style: none;
+}
+footer .connect ul li{
+    margin:1vw;
+
+}
+footer .connect ul li a img{
+    width: 3vw;
+}
+footer .contact{
+    font-size: 1vw;
+}

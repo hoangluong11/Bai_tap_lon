@@ -1,0 +1,35 @@
+.between img {
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s;
+    width: 65vw;
+    height: 35vw;
+}
+
+.between img:hover {
+    transform: scale(1.1);
+}
+
+.between {
+    padding: 1vw;
+    background-color: #10141b;
+    color: aliceblue;
+}
+
+h2 {
+    font-size: 2vw;
+    margin-left: 8vw;
+}
+
+h3 {
+    font-size: 1.4vw;
+    margin-left: 8.5vw;
+}
+
+.connect img:hover {
+    transform: scale(1.1);
+}
+
+.connect img {
+    transition: transform 0.3s;
+}

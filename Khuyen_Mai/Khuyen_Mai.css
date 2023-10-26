@@ -1,0 +1,45 @@
+.between{
+    background-color: #10141b;
+    padding: 1vw;
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+
+
+.caidau a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.caidau ul{
+    display: flex;
+}
+.caisau a{  
+    color: aliceblue;
+    text-decoration: none;
+}
+.caisau ul{
+    display: flex;
+}
+.km{
+    margin-left: 8vw;
+    height: 25vw;
+    width: 22vw;
+    box-sizing: border-box;
+    border-style: solid; 
+    border-color: #374151;
+    overflow: hidden;   
+}
+img{
+    width:22vw;
+    height: auto;
+    transition: transform 0.3s
+}
+img:hover{
+    transform: scale(1.1);
+}
+strong{
+    font-size: 1.2vw;
+}
